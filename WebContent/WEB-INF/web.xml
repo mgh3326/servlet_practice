@@ -23,12 +23,12 @@
 <display-name>edu</display-name>
    <servlet>
       <servlet-name>oh</servlet-name>
-      <servlet-class>com.edu.test.FirstServlet</servlet-class>
+      <servlet-class>com.edu.test.NetInfoServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
       <servlet-name>oh</servlet-name>
-      <url-pattern>/hello</url-pattern>
+      <url-pattern>/netInfo</url-pattern>
   </servlet-mapping>
 
 </web-app>
